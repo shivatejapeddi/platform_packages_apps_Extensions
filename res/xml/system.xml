@@ -31,4 +31,12 @@
             android:icon="@drawable/ic_sub_buttons"
             android:title="@string/buttons_title" />
 
+         <org.aospextended.extensions.preference.SystemSettingMasterSwitchPreference
+            android:key="gaming_mode_enabled"
+            android:icon="@drawable/ic_gaming"
+            android:fragment="org.aospextended.extensions.fragments.GamingMode"
+            android:title="@string/gaming_mode_title"
+            android:summary="@string/gaming_mode_summary"
+            android:defaultValue="false" />
+
 </PreferenceScreen>
